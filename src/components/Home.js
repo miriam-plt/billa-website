@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTiktok, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faArrowDownLong } from '@fortawesome/free-solid-svg-icons';
 
-
 const Home = () => {
     return <div className='header'>
         <header className='header-text'>

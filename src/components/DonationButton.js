@@ -1,5 +1,5 @@
 import './DonationButton.scss';
-import Logo from '../images/button-donation.png';
+import Logo from '../images/button-donation2.png';
 
 const Button = () => {
     return <div className='donation-button'>

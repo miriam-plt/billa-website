@@ -1,7 +1,10 @@
 .header {
     height: 100vh;
-    margin-left: 40%;
-    margin-top: 15%;
+    border: 1px solid transparent;
+    background-image: url(../images/olive-background.jpg);
+    background-position: 0%;
+    background-size: contain;
+    color: #fbf3d3;
 }
 
 .header-text-bold {
@@ -15,18 +18,22 @@
 }
 
 .header-text {
-    width: 80%;
+    width: 50%;
     line-height: 100px;
+    margin-left: 40%;
+    margin-top: 15%;
+    padding: 30px;
+    background-color: rgba(69, 85, 57, 0.9);
 }
 
 .social-media-icon {
     font-size: 40px;
     margin-right: 30px;
     padding: 20px;
-    border: 3px solid rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
+    border: 3px solid #fbf3d3;
+    background-color: #fbf3d3;
     border-radius: 50%;
-    color: rgb(255, 255, 255);
+    color: rgba(69, 85, 57, 0.9);
 }
 
 .social-media-icons {
@@ -36,6 +43,7 @@
 .arrow-down {
     font-size: 80px;
     margin-left: 90%;
-    animation: fadeIn 1s forwards;
+    opacity: 0;
+    animation: backInDown 1s forwards;
     animation-delay: 1s;
 }
