@@ -1,4 +1,4 @@
-import './Home.scss';
+import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTiktok, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faArrowDownLong } from '@fortawesome/free-solid-svg-icons';

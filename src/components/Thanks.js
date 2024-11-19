@@ -1,4 +1,4 @@
-import './Thanks.scss';
+import './Thanks.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTiktok, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import ThanksPhoto from '../images/photo-thanks.jpg';
@@ -11,7 +11,7 @@ const Thanks = () => {
             </div>
 
             <div>
-                <h1>Thank you!</h1>
+                <h1 className='section-title'>Thank you!</h1>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore
                 magna aliquyam erat, sed diam voluptua. At vero eos et

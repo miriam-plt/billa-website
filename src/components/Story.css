@@ -1,5 +1,7 @@
 .my-story {
     height: 100vh;
+    display: flex;
+    background-color: rgba(130, 151, 118, 0.9);
 }
 
 .my-story-text {
@@ -10,7 +12,12 @@
     text-justify: inter-word;
 }
 
-.my-story-title {
+.section-title {
     font-size: 50px;
     font-weight: 300;
+}
+
+.my-story-video {
+    margin-top: 10%;
+    margin-left: 15%;
 }

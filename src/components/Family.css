@@ -1,0 +1,18 @@
+.my-family {
+    display: flex;
+    height: 100vh;
+}
+
+.family-photo {
+    width: 600px;
+    margin-top: 15%;
+    margin-left: 30%;
+}
+
+.family-text {
+    width: 30%;
+    margin-top: 15%;
+    margin-left: 15%;
+    text-align: justify;
+    text-justify: inter-word;
+}

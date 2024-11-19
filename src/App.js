@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.css';
 import Home from './components/Home';
 import DonationButton from './components/DonationButton';
 import Story from './components/Story';

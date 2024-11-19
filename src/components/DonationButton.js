@@ -1,4 +1,4 @@
-import './DonationButton.scss';
+import './DonationButton.css';
 import Logo from '../images/button-donation2.png';
 
 const Button = () => {

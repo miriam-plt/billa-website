@@ -1,9 +1,9 @@
-import './Help.scss';
+import './Help.css';
 import HelpPhoto from '../images/photo-help.jpg'
 
 const Help = () => {
     return <div className='help'>
-        <h1>Why we need help</h1>
+        <h1 className='section-title'>Why we need help</h1>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
             diam nonumy eirmod tempor invidunt ut labore et dolore
             magna aliquyam erat, sed diam voluptua. At vero eos et
