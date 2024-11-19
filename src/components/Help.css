@@ -1,0 +1,21 @@
+.help {
+    display: flex;
+    height: 100vh;
+}
+
+.help-photo {
+    width: 500px;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.help-text {
+    width: 30%;
+    height: fit-content;
+    margin-top: 15%;
+    margin-left: 15%;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 30px 50px 30px 50px;
+    background-color: rgba(130, 151, 118, 0.9);
+}
