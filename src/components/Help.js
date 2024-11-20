@@ -1,6 +1,7 @@
 import './Help.css';
 import HelpPhoto from '../images/photo-help.jpg'
 
+
 const Help = () => {
     return <div className='help'>
         <div className='help-text'>
@@ -22,7 +23,9 @@ const Help = () => {
                 clita kasd gubergren, no sea takimata sanctus est Lorem
                 ipsum dolor sit amet.</p>
                 <a href="https://www.gofundme.com/f/aiutateci-ad-evacuare-questa-famiglia-da-gaza" target="_blank" rel="noreferrer">
-                    <button>Make a donation</button>
+                    <button className='button'>
+                        Make a donation
+                        </button>
                 </a>   
         </div>
             <div className='help-img'>

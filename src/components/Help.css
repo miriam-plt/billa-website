@@ -21,3 +21,16 @@
     padding: 30px 50px 30px 50px;
     background-color: rgba(130, 151, 118, 0.9);
 }
+
+.button {
+    margin-top: 3%;
+    background: rgb(251,243,211);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid black;
+    border-radius: 100px;
+}
