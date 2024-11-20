@@ -4,7 +4,7 @@ import { faInstagram, faTiktok, faXTwitter } from '@fortawesome/free-brands-svg-
 import { faArrowDownLong } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
-    return <div className='header'>
+    return <div className='component header'>
         <header className='header-text'>
             <h1 className='header-text-bold'>My name is Billa</h1>
             <p className='header-text-light'>I'm a designer from Gaza</p>

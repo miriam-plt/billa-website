@@ -1,7 +1,7 @@
 .my-story {
-    height: 100vh;
     display: flex;
-    background-color: rgba(130, 151, 118, 0.9);
+    background: rgb(251,243,211);
+    background: linear-gradient(180deg, rgba(251,243,211,0.8702074579831933) 0%, rgba(130,151,118,1) 100%);
 }
 
 .my-story-text {

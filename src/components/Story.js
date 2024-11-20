@@ -2,7 +2,7 @@ import './Story.css';
 import Video from '../images/video-habiba.mp4';
 
 const Story = () => {
-    return <div className='my-story'>
+    return <div className='component my-story'>
         <div className='my-story-text'>
             <h1 className='section-title'>This is my story</h1>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -23,7 +23,7 @@ const Story = () => {
             ipsum dolor sit amet.</p>
         </div>
         <div className='my-story-video'>
-        <video src={Video} controls="controls" autoplay="true" />
+        <video src={Video} loop autoPlay muted />
         </div>   
         </div>
 }

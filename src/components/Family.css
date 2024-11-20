@@ -1,6 +1,7 @@
 .my-family {
     display: flex;
-    height: 100vh;
+    background: rgb(251,243,211);
+    background: linear-gradient(0deg, rgba(251,243,211,0.8702074579831933) 0%, rgba(130,151,118,1) 100%);
 }
 
 .family-photo {

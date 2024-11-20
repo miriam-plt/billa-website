@@ -1,6 +1,8 @@
 .header {
-    height: 100vh;
     color: #fbf3d3;
+    overflow: auto;
+    background: rgb(251,243,211);
+    background: linear-gradient(180deg, rgba(251,243,211,0) 0%, rgba(251,243,211,0.87) 100%);
 }
 
 .header-text-bold {
