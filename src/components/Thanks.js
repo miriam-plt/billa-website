@@ -12,12 +12,10 @@ const Thanks = () => {
 
             <div className='thanks-text'>
                 <h1 className='section-title-2'>Thank you!</h1>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore
-                magna aliquyam erat, sed diam voluptua. At vero eos et
-                accusam et justo duo dolores et ea rebum. Stet clita kasd
-                gubergren, no sea takimata sanctus est Lorem ipsum dolor
-                sit amet.</p>
+                <p>Any form of donation or purchase of my work is of great help to me. Even a dollar can 
+                help me and give me a little hope. Your support is extremely important and helps me to 
+                keep faith in a better future and humanity. Thank you for listening to my story.
+                </p>
                 <div className='follow-container'>
                     <p className='follow-text'>Don't forget to follow me for updates</p>
                     <div className='social-media-icons-2'>

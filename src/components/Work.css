@@ -1,6 +1,7 @@
 .my-work {
-    background: rgba(130,151,118,1);
     display: flex;
+    background: rgb(251,243,211);
+    background: linear-gradient(0deg, rgba(251,243,211,0.8702074579831933) 0%, rgba(130,151,118,1) 100%);
 }
 
 .work-text {

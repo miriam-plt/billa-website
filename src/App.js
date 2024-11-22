@@ -5,6 +5,7 @@ import Story from './components/Story';
 import Family from './components/Family';
 import Help from './components/Help';
 import Work from './components/Work';
+import Gallery from './components/Gallery';
 import Thanks from './components/Thanks';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Family/>
       <Help/>
       <Work/>
+      <Gallery/>
       <Thanks/>
     </div>
   );

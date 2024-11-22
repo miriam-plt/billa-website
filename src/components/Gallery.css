@@ -1,0 +1,26 @@
+.gallery {
+    overflow: auto;
+    background: rgb(251,243,211);
+    background: linear-gradient(180deg, rgba(251,243,211,0.8702074579831933) 0%, rgba(130,151,118,1) 100%);
+}
+
+.photo-text {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 18%;
+}
+
+.photo {
+    height: 500px;
+    margin-left: 10%;
+}
+
+.photo-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+}

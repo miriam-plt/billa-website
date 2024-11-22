@@ -9,15 +9,15 @@ const Family = () => {
         <div className='family-text'>
         <h1 className='section-title'>Meet my family</h1>
             <div className='family-description'>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-            diam nonumy eirmod tempor invidunt ut labore et dolore
-            magna aliquyam erat, sed diam voluptua. At vero eos et
-            accusam et justo duo dolores et ea rebum. Stet clita kasd
-            gubergren, no sea takimata sanctus est Lorem ipsum dolor
-            sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua. At vero eos
-            et accusam et justo duo dolores et ea rebum.</p>
+                <p>I have a large family, which has always given me love and support. 
+                I have seven sisters and brothers: my brother Mustafa is 17 years old, 
+                my sister Ruqayya is 15 years old, my sister Arwa is 12 years old, 
+                my sister Sara is 10 years old, my brother Ahmed is 7 years old, 
+                my sister Habeeba is 3 and a half years old, and my sister Fatima 
+                is one and a half years old. My siblings and I live with my parents 
+                and my dear grandmother. They are my life and I cannot live without 
+                them even for a second. 
+                </p>
             </div>
         </div>
     </div>
