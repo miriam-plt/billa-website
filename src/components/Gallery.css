@@ -8,11 +8,21 @@
     width: 50%;
     margin-top: 5%;
     margin-left: 18%;
+    @media only screen and (max-width: 600px) {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        margin-top: 30%;
+    }
 }
 
 .photo {
     height: 500px;
     margin-left: 10%;
+    @media only screen and (max-width: 600px) {
+        height: 400px;
+    }
 }
 
 .photo-container {
@@ -23,4 +33,7 @@
     overflow-y: hidden;
     white-space: nowrap;
     scroll-snap-type: x mandatory;
+    @media only screen and (max-width: 600px) {
+        width: 90%;
+    }
 }

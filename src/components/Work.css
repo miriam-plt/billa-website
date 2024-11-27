@@ -2,6 +2,9 @@
     display: flex;
     background: rgb(251,243,211);
     background: linear-gradient(0deg, rgba(251,243,211,0.8702074579831933) 0%, rgba(130,151,118,1) 100%);
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+    }
 }
 
 .work-text {
@@ -11,6 +14,13 @@
     margin-left: 15%;
     text-align: justify;
     text-justify: inter-word;
+    @media only screen and (max-width: 600px) {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        margin-top: 30%;
+    }
 }
 
 .a-link {
@@ -23,6 +33,9 @@
 .work-photo {
     width: 500px;
     margin-left: 10%;
+    @media only screen and (max-width: 600px) {
+        width: 300px;
+    }
 }
 
 .work-photo-container {
@@ -32,4 +45,7 @@
     overflow-y: hidden;
     white-space: nowrap;
     scroll-snap-type: x mandatory;
+    @media only screen and (max-width: 600px) {
+        width: 90%;
+    }
 }

@@ -21,7 +21,7 @@ const Story = () => {
             </p>
         </div>
         <div className='my-story-video'>
-        <video src={Video} loop autoPlay muted />
+        <video src={Video} loop autoPlay muted className='video'/>
         </div>   
         </div>
 }

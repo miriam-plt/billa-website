@@ -3,7 +3,7 @@ import HelpPhoto from '../images/photo-help.jpg'
 
 
 const Help = () => {
-    return <div className='help'>
+    return <div className='component help'>
         <div className='help-text'>
             <h1 className='section-title'>Why we need help</h1>
                 <p>I am doing my best to provide my family with some basic necessities, 

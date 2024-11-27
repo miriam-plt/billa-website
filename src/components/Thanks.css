@@ -2,18 +2,32 @@
     display: flex;
     background: rgb(251,243,211);
     background: linear-gradient(0deg, rgba(251,243,211,0.8702074579831933) 0%, rgba(130,151,118,1) 100%);
+    @media only screen and (max-width: 600px) {
+        flex-direction: column-reverse;
+    }
 }
 
 .thanks-photo {
     width: 670px;
     margin-top: 3%;
     margin-left: 20%;
-    animation: fadeInLeft 2s 0.5s both;
+    @media only screen and (max-width: 600px) {
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 30%;
+    }
 }
 
 .section-title-2 {
     font-size: 100px;
     font-weight: 300;
+    @media only screen and (max-width: 600px) {
+        font-size: 50px;
+    }
 }
 
 .thanks-text {
@@ -25,6 +39,14 @@
     text-justify: inter-word;
     padding: 30px 50px 30px 50px;
     background-color: rgba(130, 151, 118, 0.9);
+    @media only screen and (max-width: 600px) {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        margin-top: 30%;
+        background-color: transparent;
+    }
 }
 
 .follow-container {
@@ -37,6 +59,10 @@
     font-size: 30px;
     font-weight: 500;
     width: 60%;
+    @media only screen and (max-width: 600px) {
+        width: 50%;
+        font-size: 20px;
+    }
 }
 
 .social-media-icons-2 {
@@ -52,4 +78,8 @@
     background-color: #000000;
     border-radius: 50%;
     color: rgb(251,243,211);
+    @media only screen and (max-width: 600px) {
+        margin-left: 5px;
+        font-size: 15px;
+    }
 }

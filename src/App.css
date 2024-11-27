@@ -4,13 +4,16 @@
 body {
   background-image: url(./images/olive-background.jpg);
   font-family: "Poppins", sans-serif;
+  max-width: 100vw;
+  min-height: 100vh;
+  @media only screen and (max-width: 600px) {
+    max-height: fit-content;
+    background-size: contain;
+}
 }
 
 *, html {
   margin:0;
-  padding:0;  
+  padding:0; 
 }
 
-.component {
-  height: 100vh;
-}
