@@ -11,12 +11,18 @@
     @media only screen and (max-width: 600px) {
         font-size: 35px;
     }
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+        font-size: 35px;
+    }   
 }
 
 .header-text-light {
     font-size: 100px;
     font-weight: 300;
     @media only screen and (max-width: 600px) {
+        font-size: 35px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
         font-size: 35px;
     }
 }
@@ -29,6 +35,14 @@
     padding: 30px 50px 30px 50px;
     background-color: rgba(130, 151, 118, 0.9);
     @media only screen and (max-width: 600px) {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30%;
+        line-height: normal;
+        padding: 15px 20px 15px 20px;
+        width: 80%;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
         margin-left: auto;
         margin-right: auto;
         margin-top: 30%;
@@ -51,6 +65,11 @@
         margin-right: 20px;
         padding: 10px;
     }
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+        font-size: 20px;
+        margin-right: 20px;
+        padding: 10px;
+    }
 }
 
 .social-media-icons {
@@ -63,8 +82,10 @@
     opacity: 0;
     animation: backInDown 1s forwards;
     animation-delay: 1s;
-
     @media only screen and (max-width: 600px) {
+        font-size: 40px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
         font-size: 40px;
     }
 }

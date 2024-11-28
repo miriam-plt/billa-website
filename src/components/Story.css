@@ -9,6 +9,9 @@
         padding-top: 1%;
         padding-bottom: 3%;
     }
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+        flex-direction: column-reverse;
+    }
 }
 
 .my-story-text {
@@ -23,12 +26,21 @@
         margin-right: auto;
         margin-top: 10%;
     }
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+    }
 }
 
 .section-title {
     font-size: 50px;
     font-weight: 300;
     @media only screen and (max-width: 600px) {
+        font-size: 30px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
         font-size: 30px;
     }
 }
@@ -40,6 +52,11 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 40%;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
     }
 }
 
