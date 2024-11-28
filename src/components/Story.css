@@ -5,6 +5,10 @@
     @media only screen and (max-width: 600px) {
         flex-direction: column-reverse;
     }
+    @media only screen and (min-width: 992px) {
+        padding-top: 1%;
+        padding-bottom: 3%;
+    }
 }
 
 .my-story-text {

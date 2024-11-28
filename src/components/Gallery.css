@@ -2,12 +2,15 @@
     overflow: auto;
     background: rgb(251,243,211);
     background: linear-gradient(180deg, rgba(251,243,211,0.8702074579831933) 0%, rgba(130,151,118,1) 100%);
+    @media only screen and (min-width: 992px) {
+        padding-bottom: 10%;
+    }
 }
 
 .photo-text {
     width: 50%;
     margin-top: 5%;
-    margin-left: 18%;
+    margin-left: 15%;
     @media only screen and (max-width: 600px) {
         width: 80%;
         margin-left: auto;
@@ -26,7 +29,7 @@
 }
 
 .photo-container {
-    width: 80%;
+    width: 88%;
     margin: auto;
     margin-top: 25px;
     overflow-x: scroll;

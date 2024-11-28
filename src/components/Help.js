@@ -21,11 +21,6 @@ const Help = () => {
                 <p>
                 I have the goal of saving my family and building a house for them, 
                 any donation is one step closer to realising my dream.
-                Here is the breakdown of the funds we are trying to raise: funds for 
-                survival inside Gaza (shelter, food, medicine, emergency funds, a new 
-                tent in case of displacement); funds for reconstruction after the war 
-                (temporary shelter, reconstruction and economic aid for restarting and 
-                recovering).
                 </p> 
                 </p>
                 <a href="https://www.gofundme.com/f/aiutateci-ad-evacuare-questa-famiglia-da-gaza" target="_blank" rel="noreferrer">
